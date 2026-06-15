@@ -1,0 +1,82 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  color: #515076;
+}
+
+ .title {
+    text-align: center;
+    font-size: 70px;
+ }
+
+ .product-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+
+ .card {
+    width: 340px;
+    background-color:#F7F7FA;
+    margin: 45px;
+    height: 573px;
+ }
+
+ .card-image{
+    width: 290px;
+    height: 245px;
+    padding: 25px;
+ }
+
+ .skin{
+    display: block;
+    font-size: 12px;
+    line-height: 24px;
+    padding-left: 25px;
+    text-transform: uppercase;
+ }
+
+ .product-name{
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 27px;
+    padding-left: 25px;
+ } 
+
+ .description{
+    line-height: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+ }
+ .compound{
+  line-height: 18px;
+  padding-left: 25px;
+ }
+
+ .component {
+   line-height: 18px;
+   margin-bottom: 5px;
+ }
+
+ .last-component{
+   line-height: 18px;
+   margin-bottom: 20px;
+
+ }
+
+
+ .price{
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 25px;
+  }
+
+ .value{
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 161px;
+    margin-top: 524px;
+ }
