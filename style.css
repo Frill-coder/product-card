@@ -2,39 +2,52 @@ body{
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   color: #515076;
+  padding-top: 220px;
+  padding-bottom: 110px;
+  /* background-clip:padding-box;
+  background-image: url("images/backround_image.svg"); */
 }
 
  .title {
     text-align: center;
     font-size: 70px;
+    font-weight: 400;
  }
 
  .product-list{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    /* width: 1110px; */
+    padding: auto;
+    margin: auto;  
+    /* gap: 30px; */
     justify-content: center;
  }
 
+.product-container{
+   margin: 25px;
+}
 
- .card {
+ .product-card{
     width: 340px;
-    background-color:#F7F7FA;
-    margin: 45px;
+    background-color: #F7F7FA;
+    margin: 22.5px;
     height: 573px;
+    /* padding: 25px; */
  }
 
- .card-image{
+ .product-card-image{
     width: 290px;
     height: 245px;
-    padding: 25px;
+    padding-bottom: 25px;
  }
 
- .skin{
+ .product-tag{
     display: block;
-    font-size: 12px;
-    line-height: 24px;
-    padding-left: 25px;
+    /* font-size: 12px;
+    line-height: 24px; */
+    /* padding-left: 25px; */
     text-transform: uppercase;
  }
 
@@ -42,41 +55,40 @@ body{
     font-style: Bold;
     font-size: 20px;
     line-height: 27px;
-    padding-left: 25px;
+    /* padding-left: 25px; */
  } 
 
  .description{
     line-height: 18px;
-    padding-left: 25px;
-    padding-right: 25px;
+    /* padding-left: 25px; */
+    /* padding-right: 25px; */
  }
- .compound{
+ .product-mini-title{
   line-height: 18px;
-  padding-left: 25px;
+  /* padding-left: 25px; */
+  padding-bottom: 5px;
+  padding-top: 25px;
  }
 
- .component {
+ .product-compound{
    line-height: 18px;
    margin-bottom: 5px;
  }
 
  .last-component{
    line-height: 18px;
-   margin-bottom: 20px;
-
+   /* margin-bottom: 20px; */
  }
 
 
- .price{
+ .product-price{
     font-style: Bold;
     font-size: 20px;
     line-height: 24px;
-    padding-left: 25px;
-  }
-
- .value{
-    font-size: 20px;
-    line-height: 24px;
-    padding-left: 161px;
-    margin-top: 524px;
+    /* padding-left: 25px; */
+    /* padding-right: 25px; */
+    /* margin-top: 25px; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
  }
