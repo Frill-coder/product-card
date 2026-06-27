@@ -4,8 +4,17 @@ body{
   color: #515076;
   padding-top: 220px;
   padding-bottom: 110px;
+  margin: 0px;
   /* background-clip:padding-box;
   background-image: url("images/backround_image.svg"); */
+}
+
+.phone{
+   background-clip:padding-box;
+   background-image: url("images/backround_image.svg");
+   background-repeat: no-repeat;
+   height: 100vh;
+   background-position: top 20px left 225px;
 }
 
  .title {
