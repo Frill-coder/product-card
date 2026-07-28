@@ -1,0 +1,23 @@
+
+.compound__list{
+    padding: 0px;
+    margin: 0px;
+    list-style: inside;
+    list-style-type: circle;
+    font-weight: 400;
+    font-size: 13px;
+} 
+
+.compound__list li{
+    margin-bottom: 5px;
+}
+
+
+.compound__name{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.compound{
+margin-bottom: 10px;
+}

@@ -1,0 +1,47 @@
+ .card{
+   background-color: #f7f7fa;
+   padding: 25px;
+   width: 100%;
+ }
+
+ .card__image{
+   display: block;
+   padding-bottom: 30px;
+ }
+
+ .card__category{
+  color: #A5A3B9;
+   display: block;
+   font-size: 12px;
+   font-weight: 400;
+   text-transform: uppercase;
+   height: 24px;
+ }
+
+ .card__description{
+   font-size: 13px;
+   font-weight: 400;
+ }
+
+ .card__name{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0px;
+ }
+
+ .card__compound{
+   margin-bottom: 5px;
+ }
+
+
+ .card__price{
+   font-style: Bold;
+   font-size: 20px;
+   line-height: 24px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 25px;
+   /* padding-top: 25px; */
+ }
