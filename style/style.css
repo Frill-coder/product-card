@@ -9,3 +9,20 @@ body{
   color: #515076;
   margin: 0px;
 }
+
+  .change-color-button{
+    padding: 12px;
+    border-color:black ;
+    border-radius: 50px;
+    background-color: #d62d2d86;
+  }
+  .change-color-button.active--button{
+    background-color: aquamarine;
+  }
+
+  /* .change-color-button{
+    padding: 12px;
+    border-color:black ;
+    border-radius: 50px;
+    background-color: #d62d2d86;
+  }   */
