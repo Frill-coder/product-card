@@ -1,7 +1,9 @@
-let area = (city, temp) => {
+const city = 'Татаюрт'
+const temp = '36'
+function showTemperature () {
     console.log(`Сейчас в городе ${city} температура — ${temp} градусов по Цельсию`)
 }
-area('Кизляр', '36')
+showTemperature()
 
 const LIGHTSPEED = (299792458)
 function checkSpeed (LIGHTSPEED) {
@@ -11,21 +13,21 @@ function checkSpeed (LIGHTSPEED) {
     else if (LIGHTSPEED < 299792458){
         console.log('Субсветовая скорость')
     }
-    else if (LIGHTSPEED === 299792458) {
+    else  {
         console.log('Скорость света')
     }
 }
-checkSpeed(299792458)
+checkSpeed(2997555458)
 
 let product = ('Ноутбук')
 let value = ('96000')
-function buing (budget) {
+function buyProduct (budget) {
     if (budget > 96000) {
         console.log(`${product} приобретён. Спасибо за покупку!`)
     }
     else if (budget < 96000) {
-        let need = (96000 - budget)
-        console.log(`Вам не хватает ${need}, пополните баланс`)
+        let lack = (96000 - budget)
+        console.log(`Вам не хватает ${lack}, пополните баланс`)
     }
 }
-buing(10000)
+buyProduct(102000)
