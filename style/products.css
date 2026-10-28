@@ -1,12 +1,11 @@
 .products{
-    display: flex;
-    flex-wrap: wrap;
-    padding: auto;
-    margin: auto;
-    justify-content: center;
-    gap: 45px;
- }
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 45px;
+}
 
- .products__item{
+.products__item{
    width: 340px;
+   list-style: none;
 }
